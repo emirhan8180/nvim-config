@@ -6,6 +6,7 @@ return {
 	---@type snacks.Config
 	opts = {
 		picker = {},
+		indent = {},
 	},
 	keys = {
 		-- find
