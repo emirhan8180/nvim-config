@@ -19,3 +19,5 @@ vim.api.nvim_create_autocmd("LspAttach", {
 		end
 	end,
 })
+
+vim.api.nvim_set_hl(0, "@lsp.mod.mutable", { underline = true })
