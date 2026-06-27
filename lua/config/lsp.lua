@@ -3,6 +3,8 @@ vim.lsp.enable("rust_analyzer")
 vim.lsp.enable("html")
 vim.lsp.enable("emmet_language_server")
 vim.lsp.enable("marksman")
+vim.lsp.enable("ts_ls")
+vim.lsp.enable("biome")
 
 -- You can enable different LSP features
 vim.api.nvim_create_autocmd("LspAttach", {

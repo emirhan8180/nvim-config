@@ -41,6 +41,9 @@ you need:
 - Markdown
   - markdownlint
   - marksman
+- JavaScript/TypeScript
+  - typescript-language-server
+  - biome
 - Prettier
 
 ## Config structure

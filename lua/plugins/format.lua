@@ -6,6 +6,8 @@ return {
 			rust = { "rustfmt" },
 			html = { "prettier" },
 			markdown = { "prettier" },
+			javascript = { "prettier" },
+			typescript = { "prettier" },
 		},
 		format_on_save = {
 			-- These options will be passed to conform.format()
