@@ -47,6 +47,9 @@ you need:
 - YAML
   - yamlls
   - yamllint
+- SQL
+  - sqls (might need to be configured at `~/.config/sqls/config.yml`)
+  - sqlfluff
 - Prettier
 
 ## Config structure

@@ -6,6 +6,7 @@ vim.lsp.enable("marksman")
 vim.lsp.enable("ts_ls")
 vim.lsp.enable("biome")
 vim.lsp.enable("yamlls")
+vim.lsp.enable("sqls")
 
 -- You can enable different LSP features
 vim.api.nvim_create_autocmd("LspAttach", {
