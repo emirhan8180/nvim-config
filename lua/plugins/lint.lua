@@ -4,6 +4,7 @@ return {
 		require("lint").linters_by_ft = {
 			markdown = { "markdownlint" },
 			html = { "htmlhint" },
+			yaml = { "yamllint" },
 		}
 
 		vim.api.nvim_create_autocmd({ "BufWritePost" }, {

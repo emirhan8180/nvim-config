@@ -44,6 +44,9 @@ you need:
 - JavaScript/TypeScript
   - typescript-language-server
   - biome
+- YAML
+  - yamlls
+  - yamllint
 - Prettier
 
 ## Config structure

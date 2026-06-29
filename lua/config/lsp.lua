@@ -5,6 +5,7 @@ vim.lsp.enable("emmet_language_server")
 vim.lsp.enable("marksman")
 vim.lsp.enable("ts_ls")
 vim.lsp.enable("biome")
+vim.lsp.enable("yamlls")
 
 -- You can enable different LSP features
 vim.api.nvim_create_autocmd("LspAttach", {

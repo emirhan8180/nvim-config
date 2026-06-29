@@ -6,6 +6,7 @@ return {
 			rust = { "rustfmt" },
 			html = { "prettier" },
 			markdown = { "prettier" },
+			yaml = { "prettier" },
 			javascript = { "prettier" },
 			typescript = { "prettier" },
 		},
