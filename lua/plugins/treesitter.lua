@@ -61,5 +61,11 @@ return {
 		vim.keymap.set({ "x", "o" }, "as", function()
 			require("nvim-treesitter-textobjects.select").select_textobject("@local.scope", "locals")
 		end)
+		vim.keymap.set({ "x", "o" }, "aa", function()
+			require("nvim-treesitter-textobjects.select").select_textobject("@assignment.outer", "textobjects")
+		end)
+		vim.keymap.set({ "x", "o" }, "ia", function()
+			require("nvim-treesitter-textobjects.select").select_textobject("@assignment.inner", "textobjects")
+		end)
 	end,
 }
