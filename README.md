@@ -25,32 +25,8 @@ git clone https://github.com/emirhan8180/nvim-config ~/.config/nvim \
 # ~/AppData/Local/nvim on Windows
 ```
 
-Install packages that you need with Mason by typing `:Mason`.
-This configuration uses the following packages, you can install the ones that
-you need:
-
-- Rust
-  - rust-analyzer
-- Lua
-  - lua-language-server
-  - stylua
-- HTML
-  - html-lsp
-  - htmlhint
-  - emmet-language-server
-- Markdown
-  - markdownlint
-  - marksman
-- JavaScript/TypeScript
-  - typescript-language-server
-  - biome
-- YAML
-  - yamlls
-  - yamllint
-- SQL
-  - sqls (might need to be configured at `~/.config/sqls/config.yml`)
-  - sqlfluff
-- Prettier
+LSP clients are automatically installed via mason-lspconfig so you don't need to
+install them manually.
 
 ## Config structure
 
