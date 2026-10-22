@@ -1,13 +1,3 @@
-vim.lsp.enable("lua_ls")
-vim.lsp.enable("rust_analyzer")
-vim.lsp.enable("html")
-vim.lsp.enable("emmet_language_server")
-vim.lsp.enable("marksman")
-vim.lsp.enable("ts_ls")
-vim.lsp.enable("biome")
-vim.lsp.enable("yamlls")
-vim.lsp.enable("sqls")
-
 -- You can enable different LSP features
 vim.api.nvim_create_autocmd("LspAttach", {
 	callback = function(ev)
